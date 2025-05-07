@@ -65,3 +65,19 @@ void display()
     }
     cout << endl;
 }
+
+void binarysearch()
+{
+    char ulang ;
+    do
+    {
+        cout << "\n====================================\n";
+        cout << "      pencarian binary search         \n";
+        cout << "======================================\n";
+        cout << "masukkan element yang ingin dicari: ";
+        cin >> x;
+
+        int low = 0;
+        int high = npanjang - 1;
+    }
+}
