@@ -105,3 +105,11 @@ void binarysearch()
         cin >> ulang;
     }while (ulang == 'y' || ulang == 'Y');
 }
+
+int main ()
+{
+    input ();
+    bubblesortarray();
+    display();
+    binarysearch();
+}
